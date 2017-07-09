@@ -3,3 +3,42 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.clock {
+  display: block;
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  background: white;
+  margin-top: 100px;
+  border-radius: 50%;
+}
+
+.clock-face {
+  display: block;
+  width: 420px;
+  height: 420px;
+  margin: 0 auto;
+  position: relative;
+  top: 14px;
+  background-image: url('../images/night.jpg');
+  border-radius: 50%;
+}
+
+.hand {
+  display: block;
+  width: 200px;
+  height: 2.5px;
+  background-color: white;
+  position: relative;
+  top: 210px;
+  left: 10px;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+}
+
+
+.sec-hand {
+  height: 1px;
+
+}
