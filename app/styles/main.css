@@ -45,6 +45,8 @@ body {
 
 .min-hand {
   height: 3.5px;
+  top: 205px;
+  left: 9px;
 }
 
 .sec-hand {
