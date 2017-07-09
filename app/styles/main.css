@@ -28,7 +28,6 @@ body {
 .hand {
   display: block;
   width: 200px;
-  height: 2.5px;
   background-color: white;
   position: relative;
   top: 210px;
@@ -38,7 +37,17 @@ body {
   transition: all 0.03s;
 }
 
+.hour-hand {
+  height: 4px;
+  width: 150px;
+  left: 60px;
+}
+
+.min-hand {
+  height: 3.5px;
+}
 
 .sec-hand {
-  height: 2.5px;
+  height: 1px;
+  top: 205px;
 }

@@ -6,9 +6,9 @@
     var secs = time.getSeconds();
     var min = time.getMinutes();
     var secondsDegree = ((secs / 60) * 360 + 90);
-    var minDegree = ((secs / 3600) * 360 + 90);
+    var minDegree = ((min / 3600) * 360 + 90);
     secondsHand.style.transform = `rotate(${secondsDegree}deg)`;
-    minDegree.style.transform = `rotate(${minDegree}deg)`;
+    minHand.style.transform = `rotate(${minDegree}deg)`;
   }
 
   setInterval(getTime, 1000);
